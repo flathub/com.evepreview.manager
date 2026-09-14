@@ -29,6 +29,6 @@ modules:
       - install -Dm644 LICENSE ${FLATPAK_DEST}/share/licenses/${FLATPAK_ID}/LICENSE
     sources:
       - type: archive
-        url: https://github.com/h0lylag/EVE-Preview-Manager/archive/refs/tags/v1.8.0.tar.gz
-        sha256: 65ee12f0b1ebe92f21bde30b29eff9bd202311660823a8291c6dfe8304c6934e
+        url: https://github.com/h0lylag/EVE-Preview-Manager/archive/refs/tags/v1.9.0-beta.1.tar.gz
+        sha256: f9f7b074ecf91dde332ca932894911ccfff68314434b2cc9b1eccd23d28ab10a
       - cargo-sources.json
