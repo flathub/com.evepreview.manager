@@ -1,6 +1,6 @@
 app-id: com.evepreview.manager
 runtime: org.freedesktop.Platform
-runtime-version: &runtime-version "25.08"
+runtime-version: &runtime-version "26.08"
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
@@ -29,6 +29,6 @@ modules:
       - install -Dm644 LICENSE ${FLATPAK_DEST}/share/licenses/${FLATPAK_ID}/LICENSE
     sources:
       - type: archive
-        url: https://github.com/h0lylag/EVE-Preview-Manager/archive/refs/tags/v1.8.0.tar.gz
-        sha256: 65ee12f0b1ebe92f21bde30b29eff9bd202311660823a8291c6dfe8304c6934e
+        url: https://github.com/h0lylag/EVE-Preview-Manager/archive/refs/tags/v1.9.0.tar.gz
+        sha256: 9728be3787660a03d613469b727b8e66b821df267d1393ccde26868b83f60c92
       - cargo-sources.json
